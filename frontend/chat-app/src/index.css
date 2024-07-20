@@ -1,0 +1,26 @@
+:root{
+  /* Variables for colours */
+  --text-light: white;
+  --test-dark: black;
+}
+
+
+
+body{
+  background: linear-gradient(to right, #0000FF, #1E90FF, #4169E1);
+}
+
+.container{
+  width: 98vw;
+  height: 98vh;
+  background-color: var(--text-light);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  display: flex;
+  justify-content: space-between;
+}
